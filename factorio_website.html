@@ -120,6 +120,20 @@
         
     </div>
 
+    <script>
+        let nev_box = document.querySelectorAll(".nev_box");
+
+        nev_box.forEach(function (nev_box) {
+            nev_box.addEventListener("mouseover", function() {
+            nev_box.style.backgroundColor = "orange";
+        });
+
+            nev_box.addEventListener("mouseout", function() {
+            nev_box.style.backgroundColor = "darkgray";
+        });
+        })
+    </script>
+
     
 </body>
 </html>

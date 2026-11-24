@@ -1,5 +1,28 @@
-.system_requirement{
-    
+body {
+    background : rgb(100, 100, 100);
+    color : white;
+}
+
+body h1 {
+    color : lightyellow;
+}
+
+body h2 {
+    color : lightyellow;
+}
+
+body h4 {
+    color : lightyellow;
+}
+
+.nev_box {
+    width:200px; 
+    height:50px;
+    margin: 20px;
+    text-align:center;
+    background: darkgray;
+    color:black;
+    borderinline: 2px;
 }
 
 .system_requirement th{
